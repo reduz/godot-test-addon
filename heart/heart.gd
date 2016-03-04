@@ -2,7 +2,7 @@ tool
 extends Node2D
 
 
-var heart = preload("res://addons/custom_node/heart.png")
+var heart = preload("res://addons/heart/heart.png")
 
 func _draw():
 	draw_texture(heart,-heart.get_size()/2)
